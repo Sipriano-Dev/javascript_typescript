@@ -1,55 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Meu HTML</title>
-  <!--é aqui onde vc coloca o html-->
-  <style>
-    /*isso seleciona o h1 para ser modificado, nesse caso todos os h1 vai ser modificado*/
-    h1 {
-      background: red;
-    }
-    /*especificidade, o que o navegador ver por último é o que fica*/
-    h1 {
-      background: blue;
-    }
-    /*especifica uma tag através do id dela*/
-    #heading-dois {
-      background: purple;
-    }
-    /*a classe não é aplicada pois o id tem maior especificidade*/
-    .fundo-vermelho {
-      background: red;
-    }
-
-    p {
-      background: red;
-    }
-    /*tudo que tiver essa classe tera os atributos abaixo*/
-    .bold {
-      color: pink;
-    }
-  </style>
-</head>
-
-<body>
-  <!--id identifica a tag, n pode ter 2 tags com o mesmo id-->
-  <!--class é um tipo de id que pode colocar mais de um no site-->
-  <!--sao usados para da a direcao para o js e css-->
-  <h1 id="heading-um" class="fundo-vermelho borde-esquerda">Vai vir aqui</h1>
-  <h1 id="heading-dois" class="fundo-vermelho">Vai vir aqui</h1>
-  <p>
-    Lorem ipsum dolor sit amet <b class="bold">consectetur</b> adipisicing elit. Voluptates, ipsa
-    voluptatibus consequuntur blanditiis eaque minus assumenda deserunt unde,
-    distinctio quidem harum a odit dolor explicabo impedit sequi ex esse
-    veniam.
-  </p>
-  <!--Span não é block e sim inline, vai ser criado na mesma linha-->
-  <span>Anderson sipriano</span><br /><span>Anderson sipriano</span>
-  <span>Anderson sipriano</span>
-</body>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Meu título</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ipsum
+      officiis alias recusandae? Iste id, dolorem accusamus iure aspernatur,
+      facere nihil culpa, nostrum optio labore inventore quo incidunt quidem
+      corrupti.
+    </p>
+    <h2>Meu Subtítulo</h2>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto aperiam ex
+    quae consequuntur nobis animi rerum ipsam magnam facere magni, quo
+    necessitatibus eaque nulla iste reiciendis rem! Officiis, nobis. Eveniet.
+    <h3>Meu título</h3>
+    <h4>Meu título</h4>
+    <h5>Meu título</h5>
+    <h6>Meu título</h6>
+  </body>
 </html>
